@@ -6,3 +6,4 @@ mypy>=0.782
 
 # Pin black as each version could change formatting, breaking CI randomly.
 black==22.12.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
