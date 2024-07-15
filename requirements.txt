@@ -16,3 +16,4 @@ freetype-py==2.3.0
 uharfbuzz==0.32.0
 glyphsLib==6.2.1 # this is only required to run Tests/varLib/interpolatable_test.py
 lxml==4.9.2
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
